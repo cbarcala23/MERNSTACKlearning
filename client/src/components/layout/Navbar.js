@@ -9,13 +9,13 @@ export const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
     <ul>
       <li>
         <Link to="/profiles">
-          Users
+        Browse CheckIN Users
         </Link>
       </li>
       <li>
         <Link to="/dashboard">
           <i className="fas fa-sign-out-alt" />{" "}
-          <span className="hide-sm">Dashboard</span>
+          <span className="hide-sm">Profile</span>
         </Link>
       </li>
       <li>
@@ -31,11 +31,11 @@ export const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
     <ul>
       <li>
         <Link to="/profiles">
-          Users
+          Browse CheckIN Users
         </Link>
       </li>
       <li>
-        <Link to="/register">Register</Link>
+        <Link to="/register">Signup</Link>
       </li>
       <li>
         <Link to="/login">Login</Link>
@@ -47,7 +47,7 @@ export const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
     <nav className="navbar bg-dark">
       <h1>
         <Link to="/">
-          <i className="fas fa-code"></i> DevConnector
+          <i className="fas fa-check-double"></i> CheckIN
         </Link>
       </h1>
       {!loading && (

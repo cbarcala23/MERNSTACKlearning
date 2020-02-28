@@ -37,7 +37,7 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
       <section className="container">
         <h1 className="large text-primary">Sign Up</h1>
         <p className="lead">
-          <i className="fas fa-user"></i> Create Your Account
+          <i className="fas fa-user"></i> Create Your Account so you can start making new friends.
         </p>
         <form className="form" onSubmit={e => onSubmit(e)}>
           <div className="form-group">

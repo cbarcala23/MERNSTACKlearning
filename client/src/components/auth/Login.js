@@ -30,7 +30,7 @@ const Login = ({ login, isAuthenticated }) => {
       <section className="container">
         <h1 className="large text-primary">Sign In</h1>
         <p className="lead">
-          <i className="fas fa-user"></i> Sign Into Your Account
+          <i className="fas fa-user"></i> Sign In and CheckIN!
         </p>
         <form className="form" onSubmit={e => onSubmit(e)}>
           <div className="form-group">
